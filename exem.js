@@ -36,3 +36,21 @@ const Mission4 = (numbers) => {
     return 2;   
 }
 
+//Mission 5
+const Mission5 = (keys, values) => {
+    let i = 0;
+    let object = {}
+    while (i < keys.length && i < values.length) {
+        object[keys[i]] = values[i] 
+        i++
+    }
+    return object
+}
+
+
+module.exports = {
+    Mission1,
+    Mission2,
+    Mission4,
+    Mission5
+}
